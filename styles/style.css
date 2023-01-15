@@ -230,3 +230,70 @@ nav ul li{
 }
 
 /* Sponsor secton style */
+.sponsor-text-container{
+    margin-top: 180px;
+}
+.sponsor-text-container p{
+    margin-top: 22px;
+    margin-bottom: 52px;
+}
+.sponsor-text{
+    text-align: center;
+}
+.sponsor-container{
+    margin-right: 240px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    margin: 130px 240px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 38px 410px;
+}
+.footer-text{
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+}
+
+/* Responsive design */
+
+ @media screen and (max-width:576px) {
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .background-top-container{
+        display: block;
+    }
+    .bottom-second-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom-first-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom-first-container-leftside{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fact-box-containers{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sponsor-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        width: 20%;
+    }
+} 
